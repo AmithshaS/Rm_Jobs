@@ -1,0 +1,5 @@
+2017-01-30 14:53:44,554 - live_job_monitor - INFO - Getting Application details
+2017-01-30 14:53:45,071 - live_job_monitor - INFO - Getting job details from DB
+2017-01-30 14:53:45,071 - live_job_monitor - INFO - Already job available in DB Checking for last Update time
+2017-01-30 14:53:45,074 - live_job_monitor - INFO - Job Updated Less than  5min
+2017-01-30 14:53:45,074 - live_job_monitor - INFO - Getting Job Details in HTML

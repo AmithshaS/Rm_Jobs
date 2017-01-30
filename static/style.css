@@ -1,0 +1,7 @@
+div#loading {
+    width: 70px;
+    height: 70px;
+    display: none;
+    background: url(/static/loadingimage.gif) no-repeat;
+    cursor: wait;
+    }

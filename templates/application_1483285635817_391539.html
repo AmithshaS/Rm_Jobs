@@ -1,0 +1,71 @@
+<p style="color:red;" align="right"><font size="3">**JOB DIGNOSIS REPORT</p>
+<p align="right">DB Last Updated Time 2017-01-23 15:22:16</p>
+<h1>APPLICATION ID: <a href="http://prod-fdphadoop-bheema-rm-0001:8088/proxy/application_1483285635817_391539" target="_blank"> application_1483285635817_391539 </a></h1>
+</head>
+ <p><font size="2" color="red">** note: data size's are in GB & Time in min **</font></p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.serif {
+font-family: "Times New Roman", Times, serif;
+}
+p.sansserif {
+font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<body><font face="verdana">
+<br>
+
+JOB COUNTERS
+
+<br>
+<script type="text/javascript">
+function showhide(id) {
+var e = document.getElementById(id);
+e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+</script>
+<table style="width:70%">
+<style>
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+th, td {
+padding: 5px;
+}
+</style>
+<p>Applicaiton Running for 75.4635936111 hrs</p>
+<tr><td>Total HDFS_BYTES_READ</td><td >0.117180425674 GB</td></tr>
+<tr><td>Total HDFS_BYTES_WRITTEN</td><td bgcolor="#FF6347">7135.94924263 GB</td></tr>
+<tr><td>No of Maps Running</td><td>0</td></tr>
+<tr><td>No of Maps Pending</td><td>0</td></tr>
+<tr><td>No of Reduces Running</td><td>1</td></tr>
+<tr><td>No of Reduces Pending</td><td>0</td></tr>
+<tr><td>No of Maps Completed</td><td>376</td></tr>
+<tr><td>No of Reducers Completed</td><td>0</td></tr>
+<tr><td>Queue Name </td><td>query</td></tr>
+<tr><td>User Name </td><td>fk-fdp-query</td></tr>
+</table>
+<p>HOST CHECK FOR  Disk & CPU Error in dmesg </p>
+<table style="width:80%">
+<tr><th align="justify">Host</th><th align="justify">DISK ISSUE</th><th align="justify">DISK DMESG</th><th align="justify">CPU DMESG</th><th align="justify">DISK I/O URL</th><th align="justify">TASK RUNNING</th></tr>
+<script type="text/javascript">
+function showhide(id) {
+var e = document.getElementById(id);
+e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+</script>
+<tr><td>ALL RUNNING TASKS HOST</td><td>GOOD</td><td>GOOD</td><td>GOOD</td><td>NULL</td><td>NULL</td></tr>
+</table>
+<br>
+<p><b> Recommendations</b> </p>
+<br>
+<table style="width:100%" cellspacing="10">
+<tr><th align="left">HOST</th><th align="left">Highly Utilised Disk</th><th align="left">Disk with High Await Time</th></tr>
+<tr><td>prod-fdphadoop-bheema-dn-1407</td><td>Good</td><td>['vdc', 'vde', 'vdf', 'vdg', 'vdh']</td></tr>
+</table>
+<p><b> task_1483285635817_391539_r_000000 with 4.279423 GB of Reduce Shuffle Input and 7135.949243 GB of HDFS Write Running for 75 Hrs </b></p>
+</body></font>
+</html>

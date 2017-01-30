@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Flipkart FDP</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+	<script type="text/javascript" src="{{url_for('static', filename='jquery-3.1.1.min.js')}}">//<![CDATA[
+// ]]></script>
+	<script>
+        function loading(){
+            console.log("loading called");
+            $("#loading").show();
+            $("#content").hide();       
+        }
+        </script>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>FDP Bheema RM Jobs Diagnosis</h1>
+            </div>
+	<div id="loading"></div>
+            <div id="content">
+                <form method="post" action="{{ url_for('process_app') }}">
+                  <label for="yourname">Please enter the app name:</label>
+                  <input type="text" name="appname" /><br />
+                  <input type="submit" name="anything_submit" value="Submit" onclick="loading();">
+                </form>
+            </div>
+            <div class="title">
+            </div>
+                <code><pre>
+                </pre></code>
+            </div>
+        </div>
+    </body>
+</html>
+ 

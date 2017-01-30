@@ -1,0 +1,56 @@
+{
+    "name": "applicaiton_1010",
+    "host" : "prod-bheema-dn-0001",
+    "message" : "2 reducers running",
+    "children": [{
+        "name": "reducer",
+        "children": [{
+            "name": "reducer1",
+	    "message" : "Running",
+            "children": [{
+                "name": "prod_dn-010",
+                "size": 3938
+            }]
+        }, {
+            "name": "reducer2",
+	"children": [{
+		"name": "prod_dn-110",
+                "size": 3001,
+		"message" : "Fetching",
+
+		"children": [{
+			"name": "Mapper1",	
+			"children": [{
+	                                "name": "prod_dn-0393",
+					"size": 7001,
+					"message":"Host With RO Disks",
+					"children": [{
+						"name": "application_21309312",
+						"size": 3534
+					},{
+                                                "name": "application_451309312",
+                                                "size": 3534
+
+                                        },{
+                                                "name": "application_651309312",
+                                                "size": 3534
+                                        }]
+					}]
+
+            }]
+	}]
+        }]
+    }, {
+        "name": "mapper",
+        "children": [{
+            "name": "mapper3",
+            "children": [{
+                "name": "writing",
+                "size": 1983
+            }, {
+                "name": "writig",
+                "size": 2047
+            }]
+        }]
+    }]
+}
